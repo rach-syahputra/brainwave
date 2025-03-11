@@ -12,7 +12,7 @@ import Services from './components/Services'
 const App = () => {
   return (
     <>
-      <div className='overflow-hidden pb-20 pt-[4.75rem] lg:pt-[5.25rem]'>
+      <div className='overflow-hidden pt-[4.75rem] lg:pt-[5.25rem]'>
         <Header />
         <Hero />
         <Benefits />

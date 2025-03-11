@@ -13,7 +13,7 @@ import Generating from './Generating'
 
 const Services = () => {
   return (
-    <Section id='how-to-use' className='py-32'>
+    <Section id='how-to-use' className='py-16 md:py-32'>
       <div className='container'>
         <Heading
           title='Generative AI made for creators.'

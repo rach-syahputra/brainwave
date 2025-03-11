@@ -7,7 +7,7 @@ import PricingList from './PricingList'
 
 const Pricing = () => {
   return (
-    <Section id='pricing' className='overflow-hidden'>
+    <Section id='pricing' className='overflow-hidden py-16'>
       <div className='container relative z-2'>
         <div className='relative mb-[6.5rem] hidden justify-center lg:flex'>
           <img

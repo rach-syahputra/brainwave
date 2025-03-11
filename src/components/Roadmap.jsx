@@ -8,7 +8,7 @@ import Section from './Section'
 import Tagline from './Tagline'
 
 const Roadmap = () => (
-  <Section className='overflow-hidden' id='roadmap'>
+  <Section id='roadmap' className='overflow-hidden py-16'>
     <div className='container md:pb-10'>
       <Heading tag='Ready to get started' title='What we’re working on' />
 
