@@ -11,7 +11,7 @@ const Section = ({
   return (
     <section
       id={id}
-      className={`relative ${customPaddings || `lg:py-16 xl:py-20 ${crosses ? 'lg:py-32 xl:py-40' : ''} ${className || ''} `}`}
+      className={`relative ${customPaddings || `lg:py-16 xl:py-20 ${crosses ? 'lg:py-32 xl:py-40' : ''}`} ${className || ''}`}
     >
       {children}
 

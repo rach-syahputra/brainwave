@@ -50,7 +50,7 @@ const Header = () => {
                   item.url === pathname.hash
                     ? 'z-2 lg:text-n-1'
                     : 'lg:text-n-1/50'
-                } relative block px-6 py-6 font-code text-2xl uppercase text-n-1 transition-colors hover:text-color-1 md:py-8 lg:-mr-0.25 lg:text-xs lg:font-semibold lg:leading-5 lg:hover:text-n-1 xl:px-12`}
+                } relative block px-6 py-4 font-code text-2xl uppercase text-n-1 transition-colors hover:text-color-1 lg:-mr-0.25 lg:text-xs lg:font-semibold lg:leading-5 lg:hover:text-n-1 xl:px-12`}
               >
                 {item.title}
               </a>
