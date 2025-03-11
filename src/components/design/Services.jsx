@@ -15,7 +15,7 @@ export const Gradient = () => {
   )
 }
 
-export const PhotChatMessage = () => {
+export const PhotoChatMessage = () => {
   return (
     <div className='absolute right-8 top-8 max-w-[17.5rem] rounded-t-xl rounded-bl-xl bg-black px-8 py-6 font-code text-base lg:right-[8.75rem] lg:top-16 lg:max-w-[17.5rem]'>
       Hey Brainwave, enhance this photo

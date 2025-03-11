@@ -7,7 +7,7 @@ import { LeftCurve, RightCurve } from './design/Collaboration'
 
 const Collaboration = () => {
   return (
-    <Section crosses className='px-20'>
+    <Section crosses className='lg:px-20'>
       <div className='container lg:flex'>
         <div className='max-w-[25rem]'>
           <h2 className='h2 mb-4 md:mb-8'>AI Chat App for collaboration</h2>
@@ -30,7 +30,7 @@ const Collaboration = () => {
         </div>
 
         <div className='mt-4 lg:ml-auto xl:w-[38rem]'>
-          <p className='body-2 lg:W-[22rem] mb-8 text-n-4 md:mb-16 lg:mx-auto lg:mb-20'>
+          <p className='body-2 lg:W-[22rem] mb-12 text-n-4 md:mb-16 lg:mx-auto lg:mb-20'>
             {collabText}
           </p>
 
